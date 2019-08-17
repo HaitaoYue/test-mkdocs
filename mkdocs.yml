@@ -1,7 +1,5 @@
 site_name: Hyperledger Cello Docs
 theme: readthedocs
-docs_dir: 'document'
-site_dir: 'docs'
 theme:
     name: 'material'
     logo:
