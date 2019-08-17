@@ -39,3 +39,39 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+docs_dir: docs
+nav:
+    - Docs:
+        - Overview: index.md
+        - Concepts: concepts.md
+        - Design:
+            - Architecture: design/arch.md
+        - Setup:
+            - Server: setup/server.md
+        - Agent:
+            - Kubernetes: agents/kubernetes.md
+            - Ansible: agents/ansible.md
+        - Operations:
+            - Dashboard:
+                - Operator operations: operations/dashboard/operator.md
+                - Admin operations: operations/dashboard/admin.md
+                - User operations: operations/dashboard/user.md
+        - Reference:
+            - Configuration:
+                - Server Configuration: reference/configuration/server.md
+            - Commands:
+                - make: reference/commands/make.md
+                - cli: reference/commands/cli.md
+        - Contribute: contributing.md
+    - FAQ:
+        - faq.md
+    - Release Notes:
+        - release_note.md
+#plugins:
+#  - search
+#  - minify:
+#      minify_html: true
+#  - pdf-export:
+#      media_type: print
+#      combined: true
+#      enabled_if_env: ENABLE_PDF_EXPORT
