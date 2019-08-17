@@ -1,17 +1,18 @@
-site_name: Hyperledger Cello Docs
-theme: readthedocs
+site_name: Hyperledger Cello
+repo_name: 'hyperledger/cello'
+repo_url: 'https://github.com/hyperledger/cello'
 theme:
     name: 'material'
-    logo:
-      icon: 'cloud'
+    logo: 'images/favicon.png'
+    favicon: 'images/favicon.png'
     feature:
       tabs: true
     palette:
-      primary: 'teal'
-      accent: 'teal'
+      primary: 'light-blue'
+      accent: 'light-blue'
     font:
-      text: 'Roboto'
-      code: 'Roboto Mono'
+      text: 'Ubuntu'
+      code: 'Ubuntu Mono'
 markdown_extensions:
   - admonition
   - codehilite
